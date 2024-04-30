@@ -1,0 +1,19 @@
+
+classDiagram
+    class SnakeGame {
+        -int score
+        -int speed
+        -List<Point> snake_body
+        -Point food_position
+        +__init__()
+        +start_game()
+        +update_direction(direction: str)
+        +update_game()
+        +draw_game()
+    }
+    class Point {
+        -int x
+        -int y
+        +__init__(x: int, y: int)
+    }
+    SnakeGame --> Point

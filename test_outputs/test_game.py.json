@@ -1,0 +1,1 @@
+{"summary":"The errors are due to problematic development codes. The issue is with the game.py file. The game_over method is not defined in the SnakeGame class, which causes an AttributeError when the game_over method is called in the play_game method.\n\n## File To Rewrite:\ngame.py\n\n## Status:\nFAIL\n\n## Send To:\nEngineer","stdout":"","stderr":"...."}

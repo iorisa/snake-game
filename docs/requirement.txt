@@ -1,0 +1,1 @@
+Create a github repo and write a snake game
